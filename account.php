@@ -24,7 +24,9 @@
 	<h1 style="text-align:center;">Devenez Savior en quelques secondes</h1>
 	<h2 style="text-align:center;">Inscrivez-vous en 3 ou 4 étapes:</h2>
 	<!-- multistep form -->
+	
 	<form id="msform">
+
 	  <!-- progressbar -->
 	  <ul id="progressbar">
 	    <li class="active">Account Setup</li>
@@ -32,6 +34,7 @@
 	    <li>Civil Details</li>
 	    <li>Personal Details</li>
 	  </ul>
+
 	  <!-- fieldsets -->
 	  <fieldset>
 	    <h2 class="fs-title">Créer un compte Tripper</h2>
@@ -51,48 +54,49 @@
 	    <h2 class="fs-title">Ajouter ses coordonnées</h2>
 	    <h3 class="fs-subtitle"></h3>
 
-		<select name="country" id="country" >
+		<select name="country" id="country" required>
         	<option value="mme">Mme</option>
         	<option value="mr">Mr</option>
     	</select>
-	    <input type="text" name="name" placeholder="Prénom" />
-	    <input type="text" name="lastname" placeholder="Nom" />
-	    <input type="text" name="email" placeholder="Email" />
-	    <input type="text" name="number" placeholder="Téléphone Mobile" />
+
+	    <input type="text" name="name" placeholder="Prénom" required/>
+	    <input type="text" name="lastname" placeholder="Nom" required/>
+	    <input type="text" name="email" placeholder="Email" required/>
+	    <input type="text" name="number" placeholder="Téléphone Mobile" required/>
 	    <input type="text" name="phone" placeholder="Téléphone Fixe" />
-		<input type="text" name="address" placeholder="Adresse" />
-		<input type="text" name="postalcode" placeholder="Code postal" />
-		<input type="text" name="city" placeholder="Ville" />
+		<input type="text" name="address" placeholder="Adresse" required/>
+		<input type="text" name="postalcode" placeholder="Code postal" required/>
+		<input type="text" name="city" placeholder="Ville" required/>
 		
 
 	    <input type="button" name="previous" class="previous action-button" value="Précédent" />
 	    <input type="button" name="next" class="next action-button" value="Suivant" />
 	  </fieldset>
 
-	<fieldset>
-		<h2 class="fs-title">Votre état civil</h2>
-		<h3 class="fs-subtitle"></h3>
-		<input type="date" name="anniversaire">
-		<select name="country" id="country" >
-			<option value="none">Pays de naissance</option>
-			<option value="en">Monténégro</option>
-			<option value="us">Ecosse</option>
-			<option value="fr">France</option>
-		</select>
+		<fieldset>
+			<h2 class="fs-title">Votre état civil</h2>
+			<h3 class="fs-subtitle"></h3>
+			<input type="date" name="anniversaire"required>
+			<select name="country" id="country" required>
+				<option value="none">Pays de naissance</option>
+				<option value="en">Monténégro</option>
+				<option value="us">Ecosse</option>
+				<option value="fr">France</option>
+			</select>
 
-		<select name="country" id="country" >
-			<option value="none">Département de naissance</option>
-			<option value="en">75</option>
-			<option value="us">78</option>
-			<option value="fr">92</option>
-		</select>
-		<input type="text" name="city" placeholder="Commune de naissance" />
-		<input type="text" name="nationality" placeholder="Nationalité" />
-		<input name="news" type="checkbox" /> Je désire recevoir la newsletter chaque mois.
-		<input name="news" type="checkbox" /> Accepter les mentions légales
-		<input type="button" name="previous" class="previous action-button" value="Précédent" />
-		<input type="button" name="next" class="next action-button" value="Suivant" />
-	</fieldset>
+			<select name="country" id="country" required>
+				<option value="none">Département de naissance</option>
+				<option value="en">75</option>
+				<option value="us">78</option>
+				<option value="fr">92</option>
+			</select>
+			<input type="text" name="city" placeholder="Commune de naissance" required/>
+			<input type="text" name="nationality" placeholder="Nationalité" required/>
+			<input name="news" type="checkbox" /> Je désire recevoir la newsletter chaque mois.
+			<input name="news" type="checkbox" required/> Accepter les mentions légales
+			<input type="button" name="previous" class="previous action-button" value="Précédent" />
+			<input type="button" name="next" class="next action-button" value="Suivant" />
+		</fieldset>
 
 
 	  <fieldset>
@@ -104,9 +108,8 @@
 		<h2 class="fs-title">Pas de compte ?</h2>
 		<input type="button" name="submit" class="action-button" value="Ouvrir un compte" />
 	    <input type="button" name="previous" class="previous action-button" value="Précédent" />
-	    <input type="submit" name="submit" class="submit action-button" value="Suivant" />
+	    <input type="submit" name="submit" class="submit action-button" value="Valider" />
 	  </fieldset>
-
 	</form>
 
 
