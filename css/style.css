@@ -172,6 +172,9 @@ li{
 		min-height: 80vh;
 	}
 
+	.five_container{
+		min-height: 100vh;
+	}
 	.bloc{
 		text-align: center;
 		padding-top:25%;
@@ -233,6 +236,13 @@ li{
 
 .four_container{
 	background: #88b9e4; 
+	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+	background-size: cover; /* version standardisée */
+	/*min-height: 970px;*/
+}
+
+.five_container{
+	background: url(../img/background4.png) no-repeat bottom fixed;
 	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
 	background-size: cover; /* version standardisée */
 	/*min-height: 970px;*/
@@ -381,3 +391,5 @@ span{
 	color: white;
 	font-weight: 300;
 }
+
+/* slider */

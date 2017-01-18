@@ -8,11 +8,15 @@
   <link rel="stylesheet" type="text/css" href="css/jquery-ui.css" />
   <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-<!--[if IE]>
-		<script type="text/javascript">
-			 var console = { log: function() {} };
-		</script>
-   <![endif]-->
+
+<!-- jQuery library (served from Google) -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<!-- bxSlider Javascript file -->
+<script src="js/jquery.bxslider.min.js"></script>
+<!-- bxSlider CSS file -->
+<link href="css/jquery.bxslider.css" rel="stylesheet" />
+
+
    <script src="js/jquery.min.js"></script>
    <script src="js/jquery-ui.min.js"></script>
 
@@ -138,6 +142,31 @@
     </div>
   </div>
 </section>
+
+<section class="five_container page-section">
+  <div class="container-fluid">
+
+
+   <div class="row">
+<ul class="bxslider">
+  <li><img src="img/pic1.jpg" /></li>
+  <li><img src="img/pic2.jpg" /></li>
+  <li><img src="img/pic3.jpg" /></li>
+  <li><img src="img/pic4.jpg" /></li>
+</ul>
+   
+</div>
+ 
+    
+  </div>
+
+</section>
 <script src="js/script.js"></script>
+<script>
+  
+  $(document).ready(function(){
+  $('.bxslider').bxSlider();
+});
+</script>
 </body>
 </html>
