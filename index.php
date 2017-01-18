@@ -119,16 +119,19 @@
 
       
       <div class="col-xs-6 col-md-4">
-
-      <img src="img/picto-savior.png" alt="3000"/>
-        <h3>700</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat sit amet lectus</p>
+        <div class="box-chiffres">
+          <img src="img/picto-savior.png" alt="3000"/>
+          <h3>700</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat sit amet lectus</p>
+        </div>
       </div>
 
       <div class="col-xs-6 col-md-4">
-        <img src="img/picto-sms.png" alt="3000"/>
-        <h3>100 000</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat sit amet lectus</p>
+        <div class="box-chiffres">
+          <img src="img/picto-sms.png" alt="3000"/>
+          <h3>100 000</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat sit amet lectus</p>
+        </div>
       </div>
 
 

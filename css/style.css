@@ -169,7 +169,7 @@ li{
 	}
 
 	.four_container{
-		min-height: 50vh;
+		min-height: 80vh;
 	}
 
 	.bloc{
@@ -363,3 +363,21 @@ span{
 	font-weight: bold;
 }
 
+
+.four_container .box-chiffres{
+	width:100%;
+	text-align: center;
+}
+
+.four_container .box-chiffres h3{
+	font-size: 2em;
+	color: white;
+	font-weight: 300;
+}
+
+.four_container .box-chiffres p{
+	font-size: 1.2em;
+	line-height: 28px;
+	color: white;
+	font-weight: 300;
+}
