@@ -273,6 +273,34 @@
 
             </div>
           </div>
+
+        <div class="footer-wrapper clearfix">
+        
+          <div class="grid-3">
+            <p class="footer-heading"><a hef="#">Mentions légales</a></p>
+          </div>
+
+          <div class="grid-3">
+            <p class="footer-heading">Confidentialité</p>
+           
+            </div>
+
+            <div class="grid-3">
+              <p class="footer-heading">Presse</p>
+            </div>
+
+            <div class="grid-3">
+              <p class="footer-heading">Cookies</p>
+
+            </div>
+
+            <div class="grid-3">
+              <p class="footer-heading">Tripper 2017</p>
+
+            </div>
+
+            </div>
+          </div>
         </footer><!-- footer End -->
 
       </div>
