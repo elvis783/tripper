@@ -174,7 +174,7 @@ li{
 	}
 
 	.five_container{
-		min-height: 100vh;
+		min-height: 780px;
 	}
 	.bloc{
 		text-align: center;
@@ -199,6 +199,15 @@ li{
 		min-height: 100vh;
 	}
 
+	.five_container{
+		min-height: 100vh;
+	}
+
+	.six_container{
+		min-height: 70vh;
+	}
+
+
 	.bloc{
 		text-align: center;
 		padding-top:10%;
@@ -209,9 +218,6 @@ li{
 		margin-bottom: 10%;
 	}
 
-	.stop_dreaming{
-		margin-top: 15px;
-	}
 }
 
 .first_container{
@@ -244,6 +250,13 @@ li{
 
 .five_container{
 	background: url(../img/background4.png) no-repeat bottom fixed;
+	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+	background-size: cover; /* version standardisée */
+	/*min-height: 970px;*/
+}
+
+.six_container{
+	background:  white;
 	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
 	background-size: cover; /* version standardisée */
 	/*min-height: 970px;*/
@@ -420,6 +433,8 @@ span{
 	font-weight: 300;
 }
 
+
+/* FIVE */
 /* slider */
 
 
@@ -579,4 +594,67 @@ span{
 
 
 
+/* SIX */
 
+.six_container h2{
+	text-align: center;
+	font-size: 3em;
+	font-family: 'Lato', sans-serif!important;
+	padding-top: 5%;
+	color:#88b9e5;
+}
+
+.six_container p{
+	text-align: center;
+	color:black;
+	font-size: 1em;
+	
+}
+.six_container form{
+text-align: center;
+margin: 5%;
+
+}
+.six_container form input{
+border-top:2px solid #88b9e5 ;
+border-bottom:2px solid #88b9e5 ;
+border-left:2px solid #88b9e5 ;
+border-right:5px solid #88b9e5 ;
+width: 150px;
+height: 50px;
+padding:10px;
+margin-left: 5px;
+}
+
+::-webkit-input-placeholder {
+   color: black;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: black;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: black;  
+}
+
+:-ms-input-placeholder {  
+   color: black;  
+}
+
+form [type="email"] {
+    width: 250px!important;
+}
+
+form [type="email"]:hover,
+form [type="email"]:focus {
+    background: rgba(255,255,255, .85);
+}
+
+form [type="submit"] {
+    position: absolute;
+    background: #3f81b1 url('../img/next.png') center no-repeat;
+	border:none!important;
+    width: 100px!important;
+    color: white;
+}
