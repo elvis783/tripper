@@ -10,20 +10,20 @@
   <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 
-<!-- jQuery library (served from Google) -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-<!-- bxSlider Javascript file -->
-<script src="js/jquery.bxslider.min.js"></script>
-<!-- bxSlider CSS file -->
-<link href="css/jquery.bxslider.css" rel="stylesheet" />
+  <!-- jQuery library (served from Google) -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+  <!-- bxSlider Javascript file -->
+  <script src="js/jquery.bxslider.min.js"></script>
+  <!-- bxSlider CSS file -->
+  <link href="css/jquery.bxslider.css" rel="stylesheet" />
 
 
-   <script src="js/jquery.min.js"></script>
-   <script src="js/jquery-ui.min.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
 
- </head>
+</head>
 
- <body>
+<body>
   <div class="header">
     <div class="wrap">
       <header>
@@ -55,9 +55,9 @@
     <div class="container-fluid">
 
      <div class="row">
-      <div class="col-md-6 col-sm-12">
-        <h2>Tripper, votre pied à terre à l'étranger.</h2>
-        <p> Retirer de l'argent, <span>sans carte de retrait</span><br/> partout dans le monde.</p>
+      <div class="col-md-6 col-md-offset-3 col-sm-12">
+        <h2><span>TRIPPER</span>, votre pied à terre à l'étranger.</h2>
+        <p> Retirer de l'argent, sans carte de retrait<br/> partout dans le monde.</p>
         <button><a href="">Découvrir la solution</a></button>
       </div>
     </div>
@@ -67,45 +67,44 @@
 <section class="second_container page-section">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-6 col-sm-12">
-        <h2>Devenez Savior en 10 minutes</h2>
-        <p> Bénéficiez d'avantages en facilitant l'accessibilité <br/>
-          de votre devise d'origine aux utilisateurs de Tripper</p>
-          <button><a href="">Devenir Savior</a></button>
+      <div class="col-md-6  col-md-offset-3  col-sm-12">
+        <div class="box__black">
+          <h2>Devenez Savior en 10 minutes</h2>
+          <p> Les locaux ou les commerces soyez à disposition à disposition des voyageurs pour les dépanner en espèces moyennant une commission. Ils sont remboursés (de la somme sortie en liquide pour vous) par Tripper à réception du code de sécurité à usage unique pour chaque transaction. Notre service est donc sécurisé et simple ne nécessitant pas de smartphone (difficile de trouver de la charge en backpacking ! ) seule une sim active et un téléphone suffisent, le paiement s'effectue avec votre le compte en banque relié à votre ligne téléphonique.</p>
+
         </div>
+        <button><a href="">Devenir Savior</a></button>
       </div>
     </div>
   </div>
+</div>
 </section>
 
 <section class="third_container page-section">
   <div class="container-fluid">
-    <div class="row col-md-12">
+    <div class="row">
       <div class="col-xs-6 col-md-6">
-        <h2>Rien de plus qu'un téléphone</h2>
-        <ul>
-          <li>
-            <h3>Rechercher</h3>
-            <p>Trouver rapidement un savior à proximité grâce à un sms à notre service.</p>
-          </li>
-          <li>
-            <h3>Contacter</h3>
-            <p>Trouver rapidement un savior à proximité grâce à un sms à notre service.</p>
-          </li>
-          <li>
-            <h3>Echanger</h3>
-            <p>Trouver rapidement un savior à proximité grâce à un sms à notre service.</p>
-          </li>
-        </ul>
       </div>
-
       
       <div class="col-xs-6 col-md-6">
-        <div class="phone">
-          <img src="img/phone.png" class="img-responsive" alt="Rien de plus qu'un téléphone"/>
+        <div class="box__black">
+          <h2>Rien de plus qu'un téléphone</h2>
+          <ul>
+            <li>
+              <h3>Rechercher</h3>
+              <p>Trouver rapidement un savior à proximité grâce à un sms à notre service.</p>
+            </li>
+            <li>
+              <h3>Contacter</h3>
+              <p>Trouver rapidement un savior à proximité grâce à un sms à notre service.</p>
+            </li>
+            <li>
+              <h3>Echanger</h3>
+              <p>Trouver rapidement un savior à proximité grâce à un sms à notre service.</p>
+            </li>
+          </ul>
         </div>
       </div>
-
     </div>
   </div>
 </section>
@@ -149,25 +148,16 @@
 
 
    <div class="row">
-<ul class="bxslider">
-  <li><img src="img/pic1.jpg" /></li>
-  <li><img src="img/pic2.jpg" /></li>
-  <li><img src="img/pic3.jpg" /></li>
-  <li><img src="img/pic4.jpg" /></li>
-</ul>
-   
-</div>
- 
-    
-  </div>
+
+
+   </div>
+
+
+ </div>
 
 </section>
 <script src="js/script.js"></script>
-<script>
-  
-  $(document).ready(function(){
-  $('.bxslider').bxSlider();
-});
-</script>
+
+
 </body>
 </html>
