@@ -150,49 +150,49 @@
    <div class="row">
     <div class="col-md-12">
 
-    <div id="wrapper">
+      <div id="wrapper">
 
 
-      <h2>La securité <img src="img/logo-paypal.png" alt="La sécurité Paypal"/></h2>
+        <h2>La securité <img src="img/logo-paypal.png" alt="La sécurité Paypal"/></h2>
 
-      <div id="slider-wrap">
-        <ul id="slider">
+        <div id="slider-wrap">
+          <ul id="slider">
+           <li>
+            <div>   
+             <img src="img/locked.png" alt="la sécurité"/>
+             <p>Avec ou sans smartphone nous offrons la possibilité à notre communauté de se procurer de la liquidité à l’étranger, sans carte de retrait, et en toute sécurité. </p>
+           </div>                
+           <i class="fa fa-image"></i>
+         </li>
+
          <li>
-          <div>   
-           <img src="img/locked.png" alt="la sécurité"/>
-           <p>Avec ou sans smartphone nous offrons la possibilité à notre communauté de se procurer de la liquidité à l’étranger, sans carte de retrait, et en toute sécurité. </p>
-         </div>                
-         <i class="fa fa-image"></i>
-       </li>
+          <div>
+            <img src="img/locked.png" alt="la sécurité"/>
+            <p>Tripper est une solution disponible 24h/24h et 7j/7 partout dans le monde.</p>
+          </div>
+          <i class="fa fa-gears"></i>
+        </li>
 
-       <li>
-        <div>
-          <img src="img/locked.png" alt="la sécurité"/>
-          <p>Tripper est une solution disponible 24h/24h et 7j/7 partout dans le monde.</p>
-        </div>
-        <i class="fa fa-gears"></i>
-      </li>
-
-      <li>
-        <div>
-          <img src="img/locked.png" alt="la sécurité"/>
-          <p>Nous collaborons des experts en sécurité bancaire et en développement constamment pour assurer la sécurité du système de transaction de Tripper.</p>
-        </div>
-        <i class="fa fa-sliders"></i>
-      </li>
+        <li>
+          <div>
+            <img src="img/locked.png" alt="la sécurité"/>
+            <p>Nous collaborons des experts en sécurité bancaire et en développement constamment pour assurer la sécurité du système de transaction de Tripper.</p>
+          </div>
+          <i class="fa fa-sliders"></i>
+        </li>
 
 
 
-    </ul>
+      </ul>
 
-    <!--controls-->
-    <div class="btns" id="next"><img src="img/next.png"/></div>
-    <!--  <div class="btns" id="previous"><i class="fa fa-arrow-left"></i></div>-->
-    <!--controls-->  
+      <!--controls-->
+      <div class="btns" id="next"><img src="img/next.png"/></div>
+      <!--  <div class="btns" id="previous"><i class="fa fa-arrow-left"></i></div>-->
+      <!--controls-->  
+
+    </div>
 
   </div>
-  
-</div>
 
 </div>
 
@@ -212,9 +212,9 @@
       <p>En souscrivant à la newsletter, soyez les premiers au courant sur l'actualité des Trippers et des Saviors</p>
       <form action="config.php" method="POST">
 
-        <input type="nom" placeholder="Entrer votre nom" id="form-nom" name="nom" required />
-        <input type="prenom" placeholder="Entrer votre prénom" id="form-prenom" name="prenom" required />
-        <input type="email" placeholder="Entrer votre e-mail" id="form-email" name="email" required />
+        <input type="nom" placeholder="Votre nom" id="form-nom" name="nom" required />
+        <input type="prenom" placeholder="Votre prénom" id="form-prenom" name="prenom" required />
+        <input type="email" placeholder="Votre e-mail" id="form-email" name="email" required />
 
         <input type="submit" value=""  />
       </form>
@@ -222,9 +222,64 @@
   </div>
 </div>
 </section>
-<script src="js/script.js"></script>
-<script src="js/caroussel.js"></script>
 
 
-</body>
-</html>
+<section class="seven_container page-section">
+  <div class="container-fluid">
+    <div class="row col-md-12">
+
+
+      <footer>
+
+        <div class="footer-wrapper clearfix">
+          <div class="grid-3 footer-logo">
+            <img src="img/logo-tripper.png" alt="TRIPPER"/>
+          </div>
+          <div class="grid-3">
+            <p class="footer-heading"><a hef="#">LA SOLUTION</a></p>
+          </div>
+
+          <div class="grid-3">
+            <p class="footer-heading">DEVENIR SAVIOR</p>
+            <ul class="footer-contact">
+            <li><a href="">Qu'est ce qu'un savior ?</a></li>
+                <li><a href="">Inscription</a></li>
+              </ul>
+            </div>
+
+            <div class="grid-3">
+              <p class="footer-heading">SECURITÉ</p>
+            </div>
+
+            <div class="grid-3">
+              <p class="footer-heading">FAQ</p>
+
+            </div>
+
+            <div class="grid-3">
+              <p class="footer-heading">CONTACT</p>
+
+            </div>
+
+            <div class="grid-3">
+              <p class="footer-heading">RÉSEAUX SOCIAUX</p>
+              <ul class="footer-contact">
+                <li class="icon-fb"><a href=""></a></li>
+                <li class="icon-fb"><a href=""></a></li>
+                <li class="icon-fb"><a href=""></a></li>
+                <li class="icon-fb"><a href=""></a></li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+        </footer><!-- footer End -->
+
+      </div>
+    </section>
+    <script src="js/script.js"></script>
+    <script src="js/caroussel.js"></script>
+
+
+  </body>
+  </html>
