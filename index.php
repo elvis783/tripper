@@ -149,6 +149,49 @@
 
    <div class="row">
 
+<div id="wrapper">
+   
+
+      <h2>La securité <img src="img/logo-paypal.png" alt="La sécurité Paypal"/></h2>
+        
+      <div id="slider-wrap">
+          <ul id="slider">
+             <li>
+                <div>   
+                   <img src="img/locked.png" alt="la sécurité"/>
+                    <p>Avec ou sans smartphone nous offrons la possibilité à notre communauté de se procurer de la liquidité à l’étranger, sans carte de retrait, et en toute sécurité. </p>
+                </div>                
+                <i class="fa fa-image"></i>
+             </li>
+             
+             <li>
+                <div>
+                    <img src="img/locked.png" alt="la sécurité"/>
+                    <p>Tripper est une solution disponible 24h/24h et 7j/7 partout dans le monde.</p>
+                </div>
+                <i class="fa fa-gears"></i>
+             </li>
+             
+             <li>
+                <div>
+                    <img src="img/locked.png" alt="la sécurité"/>
+                    <p>Nous collaborons des experts en sécurité bancaire et en développement constamment pour assurer la sécurité du système de transaction de Tripper.</p>
+                </div>
+                <i class="fa fa-sliders"></i>
+             </li>
+             
+           
+             
+          </ul>
+          
+           <!--controls-->
+          <div class="btns" id="next"><img src="img/next.png"/></div>
+        <!--  <div class="btns" id="previous"><i class="fa fa-arrow-left"></i></div>-->
+          <!--controls-->  
+                 
+      </div>
+  
+   </div>
 
    </div>
 
@@ -157,6 +200,7 @@
 
 </section>
 <script src="js/script.js"></script>
+<script src="js/test.js"></script>
 
 
 </body>
