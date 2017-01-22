@@ -206,6 +206,7 @@
 <?php include('footer.php');?>
 
 </div>
+</div>
 </section>
 <script src="js/script.js"></script>
 <script src="js/caroussel.js"></script>

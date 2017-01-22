@@ -182,7 +182,11 @@ li{
 	}
 
 	.seven_container{
-		min-height: 60vh;
+		min-height: 40vh;
+	}
+	
+	.account_container{
+		min-height: 200vh;
 	}
 
 	.bloc{
@@ -218,6 +222,10 @@ li{
 
 	.seven_container{
 		min-height: 60vh;
+	}
+	
+	.account_container{
+		min-height: 200vh;
 	}
 
 	.bloc{
@@ -276,6 +284,13 @@ li{
 
 .seven_container{
 	background:  #1b1b1b;
+	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+	background-size: cover; /* version standardisée */
+	/*min-height: 970px;*/
+}
+
+.account_container{
+	background: url(../img/background-account.png) no-repeat bottom fixed;
 	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
 	background-size: cover; /* version standardisée */
 	/*min-height: 970px;*/
@@ -714,7 +729,7 @@ footer{
 
 .grid-3-:last-child {
 
-	left:28%;
+	left:24%;
 }
 .footer-logo{
 	margin-right:5%;
@@ -846,4 +861,17 @@ footer a:hover {
 		float: none;
 		line-height: 25px;
 	}
+}
+
+
+/* ACCOUNT */
+
+.account_container h2
+{
+	text-align: center;
+	font-size: 2em;
+}
+
+.account_container p{
+	font-size:1.2em;
 }

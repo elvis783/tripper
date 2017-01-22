@@ -4,147 +4,139 @@
 
 
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-	<title>Tripper</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.css" />
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 
-	<!-- Bootstrap -->
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<script class="cssdeck" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-	<script type="tex-/javascript" href="js/jquery-3.1.1.min"></script>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-      <![endif]-->
-  </head>
+	<!-- jQuery library (served from Google) -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<!-- bxSlider Javascript file -->
+	<script src="js/jquery.bxslider.min.js"></script>
+	<!-- bxSlider CSS file -->
+	<link href="css/jquery.bxslider.css" rel="stylesheet" />
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+
+</head>
 <body>
-	<h1 style="text-align:center;">Devenez Savior en quelques secondes</h1>
-	<h2 style="text-align:center;">Inscrivez-vous en 3 ou 4 étapes:</h2>
-	<!-- multistep form -->
-	
-	<form action="etape1.php" method="POST" id="msform">
+	<?php include('header.php');?>
 
-	  <!-- progressbar -->
-	  <ul id="progressbar">
-	    <li class="active">Account Setup</li>
-	    <li>Social Profiles</li>
-	    <li>Civil Details</li>
-	    <li>Personal Details</li>
-	  </ul>
+	<section class="account_container page-section">
+		<div class="container-fluid">
 
-	  <!-- fieldsets -->
-	  <fieldset>
-	    <h2 class="fs-title">Créer un compte Tripper</h2>
-	    <h3 class="fs-subtitle"></h3>
-	    <input type="text" name="mail" placeholder="mail" />
-	    
-        <select name="pays" id="pays" >
-        	<option value="none">Pays de résidence</option>
-        	<option value="Angleterre">Angleterre</option>
-        	<option value="USA">États-Unis</option>
-        	<option value="France">France</option>
-    	</select>
-	    <input type="button" name="next" class="next action-button" value="Créer un compte" />
-	  </fieldset>
-	
-	  <fieldset>
-	    <h2 class="fs-title">Ajouter ses coordonnées</h2>
-	    <h3 class="fs-subtitle"></h3>
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3 col-sm-12">
 
-		<select name="sexe" id="sexe" >
-        	<option value="mme">Mme</option>
-        	<option value="mr">Mr</option>
-    	</select>
+					<h2>Devenez Savior en quelques secondes</h2>
+					<p>Inscrivez-vous en 3 ou 4 étapes:</p>
+					<!-- multistep form -->
 
-	    <input type="text" name="nom" placeholder="nom" />
-	    <input type="text" name="prenom" placeholder="prenom" />
-	    <input type="text" name="telportable" placeholder="Téléphone Mobile" />
-	    <input type="text" name="telfixe" placeholder="Téléphone Fixe" />
-		<input type="text" name="adresse" placeholder="Adresse" />
-		<input type="text" name="cp" placeholder="Code postal" />
-		<input type="text" name="ville" placeholder="Ville" />
-		
+					<form action="etape1.php" method="POST" id="msform">
 
-	    <input type="button" name="previous" class="previous action-button" value="Précédent" />
-	    <input type="button" name="next" class="next action-button" value="Suivant" />
-	  </fieldset>
+						<!-- progressbar -->
+						<ul id="progressbar">
+							<li class="active">Account Setup</li>
+							<li>Social Profiles</li>
+							<li>Civil Details</li>
+							<li>Personal Details</li>
+						</ul>
 
-		<fieldset>
-			<h2 class="fs-title">Votre état civil</h2>
-			<h3 class="fs-subtitle"></h3>
-			<input type="date" name="datedenaissance" >
-			<select name="paysdenaissance" id="pays_naissance" >
-				<option value="none">Pays de naissance</option>
-				<option value="Montenegro">Monténégro</option>
-				<option value="Ecosse">Ecosse</option>
-				<option value="France">France</option>
-			</select>
+						<!-- fieldsets -->
+						<fieldset>
+							<h2 class="fs-title">Créer un compte Tripper</h2>
+							<h3 class="fs-subtitle"></h3>
+							<input type="text" name="mail" placeholder="mail" />
 
-			<select name="dpdenaissance" id="departement_naissance" >
-				<option value="none">Département de naissance</option>
-				<option value="75">75</option>
-				<option value="78">78</option>
-				<option value="92">92</option>
-			</select>
-			<input type="text" name="comdenaissance" placeholder="Commune de naissance" />
-			<input type="text" name="nationalite" placeholder="Nationalité" />
-			<input name="Newsletter" type="checkbox" value="mentions-newsletter"/>Je désire recevoir la newsletter chaque mois.
-			<input name="Mentions" type="checkbox" value="mentions-legales"/>Accepter les mentions légales
-			<input type="button" name="previous" class="previous action-button" value="Précédent" />
-			<input type="button" name="next" class="next action-button" value="Suivant" />
-		</fieldset>
+							<select name="pays" id="pays" >
+								<option value="none">Pays de résidence</option>
+								<option value="Angleterre">Angleterre</option>
+								<option value="USA">États-Unis</option>
+								<option value="France">France</option>
+							</select>
+							<input type="button" name="next" class="next action-button" value="Créer un compte" />
+						</fieldset>
+
+						<fieldset>
+							<h2 class="fs-title">Ajouter ses coordonnées</h2>
+							<h3 class="fs-subtitle"></h3>
+
+							<select name="sexe" id="sexe" >
+								<option value="mme">Mme</option>
+								<option value="mr">Mr</option>
+							</select>
+
+							<input type="text" name="nom" placeholder="nom" />
+							<input type="text" name="prenom" placeholder="prenom" />
+							<input type="text" name="telportable" placeholder="Téléphone Mobile" />
+							<input type="text" name="telfixe" placeholder="Téléphone Fixe" />
+							<input type="text" name="adresse" placeholder="Adresse" />
+							<input type="text" name="cp" placeholder="Code postal" />
+							<input type="text" name="ville" placeholder="Ville" />
 
 
-	  <fieldset>
-	    <h2 class="fs-title">Connecter votre compte paypal</h2>
-	    <h3 class="fs-subtitle"></h3>
-	
-		<input type="text" name="mailpaypal" placeholder="Mon adresse paypal" />
+							<input type="button" name="previous" class="previous action-button" value="Précédent" />
+							<input type="button" name="next" class="next action-button" value="Suivant" />
+						</fieldset>
 
-		<h2 class="fs-title">Pas de compte ?</h2>
-		<input type="button" name="submit" class="action-button" value="Ouvrir un compte" />
-	    <input type="button" name="previous" class="previous action-button" value="Précédent" />
-	    <input type="submit" name="next" class="next action-button" value="Valider" />
-	  </fieldset>
-	</form>
+						<fieldset>
+							<h2 class="fs-title">Votre état civil</h2>
+							<h3 class="fs-subtitle"></h3>
+							<input type="date" name="datedenaissance" >
+							<select name="paysdenaissance" id="pays_naissance" >
+								<option value="none">Pays de naissance</option>
+								<option value="Montenegro">Monténégro</option>
+								<option value="Ecosse">Ecosse</option>
+								<option value="France">France</option>
+							</select>
+
+							<select name="dpdenaissance" id="departement_naissance" >
+								<option value="none">Département de naissance</option>
+								<option value="75">75</option>
+								<option value="78">78</option>
+								<option value="92">92</option>
+							</select>
+							<input type="text" name="comdenaissance" placeholder="Commune de naissance" />
+							<input type="text" name="nationalite" placeholder="Nationalité" />
+							<input name="Newsletter" type="checkbox" value="mentions-newsletter"/>Je désire recevoir la newsletter chaque mois.
+							<input name="Mentions" type="checkbox" value="mentions-legales"/>Accepter les mentions légales
+							<input type="button" name="previous" class="previous action-button" value="Précédent" />
+							<input type="button" name="next" class="next action-button" value="Suivant" />
+						</fieldset>
 
 
+						<fieldset>
+							<h2 class="fs-title">Connecter votre compte paypal</h2>
+							<h3 class="fs-subtitle"></h3>
 
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="js/bootstrap.min.js"></script>
-	<script>
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+							<input type="text" name="mailpaypal" placeholder="Mon adresse paypal" />
 
-	ga('create', 'UA-89994770-1', 'auto');
-	ga('send', 'pageview');
+							<h2 class="fs-title">Pas de compte ?</h2>
+							<input type="button" name="submit" class="action-button" value="Ouvrir un compte" />
+							<input type="button" name="previous" class="previous action-button" value="Précédent" />
+							<input type="submit" name="next" class="next action-button" value="Valider" />
+						</fieldset>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="seven_container page-section">
+		<div class="container-fluid">
+			<div class="row col-md-12">
+				<?php include('footer.php');?>
+			</div>
+		</div>
+	</section>
+	<script src="js/script.js"></script>
 
-	</script>
-	<!-- Hotjar Tracking Code for www.tripper-app.com -->
-	<script>
-	  (function(h,o,t,j,a,r){
-	      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-	      h._hjSettings={hjid:384213,hjsv:5};
-	      a=o.getElementsByTagName('head')[0];
-	      r=o.createElement('script');r.async=1;
-	      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-	      a.appendChild(r);
-	  })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
-	</script>
-	<script type="text/javascript" src="js/main.js"></script>
-	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script>
-  </body>
-  </html>
+</body>
+</html>
