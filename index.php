@@ -240,74 +240,74 @@
           </div>
 
           <div class="grid-3">
-            <p class="footer-heading">DEVENIR SAVIOR</p>
+            <p class="footer-heading"><a hef="#">DEVENIR SAVIOR</a></p>
             <ul class="footer-contact">
-            <li><a href="">Qu'est ce qu'un savior ?</a></li>
-                <li><a href="">Inscription</a></li>
-              </ul>
-            </div>
-
-            <div class="grid-3">
-              <p class="footer-heading">SECURITÉ</p>
-            </div>
-
-            <div class="grid-3">
-              <p class="footer-heading">FAQ</p>
-
-            </div>
-
-            <div class="grid-3">
-              <p class="footer-heading">CONTACT</p>
-
-            </div>
-
-            <div class="grid-3">
-              <p class="footer-heading">RÉSEAUX SOCIAUX</p>
-              <ul class="footer-contact">
-                <li class="icon-fb"><a href=""></a></li>
-                <li class="icon-fb"><a href=""></a></li>
-                <li class="icon-fb"><a href=""></a></li>
-                <li class="icon-fb"><a href=""></a></li>
-                </ul>
-              </div>
-
-            </div>
-          </div>
-
-        <div class="footer-wrapper clearfix">
-        
-          <div class="grid-3">
-            <p class="footer-heading"><a hef="#">Mentions légales</a></p>
+              <li><a href="">Qu'est ce qu'un savior ?</a></li>
+              <li><a href="">Inscription</a></li>
+            </ul>
           </div>
 
           <div class="grid-3">
-            <p class="footer-heading">Confidentialité</p>
-           
-            </div>
-
-            <div class="grid-3">
-              <p class="footer-heading">Presse</p>
-            </div>
-
-            <div class="grid-3">
-              <p class="footer-heading">Cookies</p>
-
-            </div>
-
-            <div class="grid-3">
-              <p class="footer-heading">Tripper 2017</p>
-
-            </div>
-
-            </div>
+            <p class="footer-heading"><a hef="#">SECURITÉ</a></p>
           </div>
-        </footer><!-- footer End -->
+
+          <div class="grid-3">
+            <p class="footer-heading"><a hef="#">FAQ</a></p>
+
+          </div>
+
+          <div class="grid-3">
+            <p class="footer-heading"><a hef="#">CONTACT</a></p>
+
+          </div>
+
+          <div class="grid-3">
+            <p class="footer-heading"><a hef="#">RÉSEAUX SOCIAUX</a></p>
+            <div class="icons">
+             <a href="#"> <img src="img/picto-facebook.png" alt="faebook"/></a>
+             <a href="#"> <img src="img/picto-instagram.png" alt="faebook"/></a>
+             <a href="#"> <img src="img/picto-twitter.png" alt="faebook"/></a>
+             <a href="#"> <img src="img/picto-youtube.png" alt="faebook"/></a>
+           </div>
+         </div>
+
+       </div>
+     </div>
+
+     <div class="footer-wrapper clearfix">
+
+      <div class="grid-3-">
+        <p class="footer-heading--"><a hef="#">Mentions légales</a></p>
+      </div>
+
+      <div class="grid-3-">
+        <p class="footer-heading--"><a hef="#">Confidentialité</a></p>
 
       </div>
-    </section>
-    <script src="js/script.js"></script>
-    <script src="js/caroussel.js"></script>
+
+      <div class="grid-3-">
+        <p class="footer-heading--"><a hef="#">Presse</a></p>
+      </div>
+
+      <div class="grid-3-">
+        <p class="footer-heading--"><a hef="#">Cookies</a></p>
+
+      </div>
+
+      <div class="grid-3-">
+        <p class="footer-heading--"><a hef="#">Tripper 2017</a></p>
+
+      </div>
+
+    </div>
+  </div>
+</footer><!-- footer End -->
+
+</div>
+</section>
+<script src="js/script.js"></script>
+<script src="js/caroussel.js"></script>
 
 
-  </body>
-  </html>
+</body>
+</html>
