@@ -2,7 +2,7 @@
     <div class="wrap">
       <header>
         <h1 class="logo">
-          <a href="">
+          <a href="index.php">
             <img src="img/logo-tripper.png" alt="TRIPPER">
           </a>
         </h1>

@@ -34,27 +34,27 @@
 		<div class="container-fluid">
 
 			<div class="row">
-				<div class="col-md-6 col-md-offset-3 col-sm-12">
-
-					<h2>Devenez Savior en quelques secondes</h2>
-					<p>Inscrivez-vous en 3 ou 4 étapes:</p>
+				<div class="col-md-12 col-sm-12">
+		
+					<h2>Devenez Savior en quelques minutes</h2>
+					<p>Saisissez vos informations personnelles</p>
 					<!-- multistep form -->
 
 					<form action="etape1.php" method="POST" id="msform">
 
 						<!-- progressbar -->
 						<ul id="progressbar">
-							<li class="active">Account Setup</li>
-							<li>Social Profiles</li>
-							<li>Civil Details</li>
-							<li>Personal Details</li>
+							<li class="active">Saisissez votre adresse e-mail</li>
+							<li>Saisissez vos coordonnées</li>
+							<li>Saisissez votre état civil</li>
+							<li>Synchronisez votre compte PAYPAL</li>
 						</ul>
 
 						<!-- fieldsets -->
 						<fieldset>
 							<h2 class="fs-title">Créer un compte Tripper</h2>
 							<h3 class="fs-subtitle"></h3>
-							<input type="text" name="mail" placeholder="mail" />
+							<input type="text" name="mail" placeholder="Votre adresse e-mail" />
 
 							<select name="pays" id="pays" >
 								<option value="none">Pays de résidence</option>
@@ -62,11 +62,11 @@
 								<option value="USA">États-Unis</option>
 								<option value="France">France</option>
 							</select>
-							<input type="button" name="next" class="next action-button" value="Créer un compte" />
+							<input type="button" name="next" class="next action-button" value="Étape suivante" />
 						</fieldset>
 
 						<fieldset>
-							<h2 class="fs-title">Ajouter ses coordonnées</h2>
+							<h2 class="fs-title">Vos informations personnelles</h2>
 							<h3 class="fs-subtitle"></h3>
 
 							<select name="sexe" id="sexe" >

@@ -863,7 +863,7 @@ footer a:hover {
 	}
 }
 
-<<<<<<< Updated upstream
+
 
 /* ACCOUNT */
 
@@ -871,25 +871,26 @@ footer a:hover {
 {
 	text-align: center;
 	font-size: 2em;
+	margin-top:10%;
 }
 
 .account_container p{
 	font-size:1.2em;
+	text-align: center;
+
 }
-=======
->>>>>>> Stashed changes
+
 
 /*TUNNEL D'INSCRIPTION*/
 
 /*custom font*/
 @import url(http://fonts.googleapis.com/css?family=Montserrat);
 
-/*basic reset*/
-* {margin: 0; padding: 0;}
+
 
 /*form styles*/
 #msform {
-	width: 400px;
+	width: 959px;
 	margin: 50px auto;
 	text-align: center;
 	position: relative;
@@ -923,10 +924,24 @@ footer a:hover {
 	color: #2C3E50;
 	font-size: 13px;
 }
+#msform [type="checkbox"]{
+	width:50px;
+}
+#msform select{
+  background: #FFF;
+  border: #88b9e5 solid 1px;
+  color: #fff;
+  height: 35px;
+  max-width: 230px;
+  margin-bottom: 20px;
+  width: 100%;
+  color: #e4e3e3;
+}
+
 /*buttons*/
 #msform .action-button {
-	width: 100px;
-	background: #27AE60;
+	width: 200px;
+	background: #88b9e5;
 	font-weight: bold;
 	color: white;
 	border: 0 none;
@@ -936,7 +951,8 @@ footer a:hover {
 	margin: 10px 5px;
 }
 #msform .action-button:hover, #msform .action-button:focus {
-	box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+	box-shadow: 0 0 0 2px white, 0 0 0 3px #88b9e5;
+	
 }
 /*headings*/
 .fs-title {
@@ -960,23 +976,24 @@ footer a:hover {
 }
 #progressbar li {
 	list-style-type: none;
-	color: white;
-	text-transform: uppercase;
-	font-size: 9px;
-	width: 33.33%;
+
+	font-size: 12px;
+	width: 25%;
 	float: left;
 	position: relative;
+	color: #000;
 }
 #progressbar li:before {
 	content: counter(step);
 	counter-increment: step;
-	width: 20px;
-	line-height: 20px;
+	width: 50px;
+	height: 50px;
+	line-height: 45px;
 	display: block;
-	font-size: 10px;
+	font-size: 25px;
 	color: #333;
 	background: white;
-	border-radius: 3px;
+	border-radius: 50%;
 	margin: 0 auto 5px auto;
 }
 /*progressbar connectors*/
@@ -989,16 +1006,19 @@ footer a:hover {
 	left: -50%;
 	top: 9px;
 	z-index: -1; /*put it behind the numbers*/
+	color: red;
 }
 #progressbar li:first-child:after {
 	/*connector not needed before the first step*/
 	content: none; 
+	color: silver;
 }
 /*marking active/completed steps green*/
 /*The number of the step and the connector before it = green*/
 #progressbar li.active:before,  #progressbar li.active:after{
-	background: #27AE60;
+	background: #87b9e5;
 	color: white;
+	font-weight: bold;
 }
 
 
