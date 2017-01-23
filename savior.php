@@ -27,31 +27,7 @@
 </head>
 
  <body>
-  <div class="header">
-    <div class="wrap">
-      <header>
-        <h1 class="logo">
-          <a href="">
-            <img src="img/logo-tripper.png" alt="TRIPPER">
-          </a>
-        </h1>
-      </header>
-      <nav>
-        <ul class="main-nav">
-          <li><a href="#" class="is-active">La solution</a></li>
-          <li><a href="#">Devenir savior</a></li>
-          <li><a href="#">Sécurité</a></li>
-          <li><a href="#">FAQ</a></li>
-          <li><a href="#">Contact</a></li>
-
-
-          <li><a href="">Login</a></li>
-          <li class="button-inscription"><a href=""> Inscription</a></li>
-        </ul>
-      </nav>
-      <button id="btn-nav">Menu</button>
-    </div>
-  </div>
+  <?php include('header.php');?>
 
 
   <section class="first_container page-section">
@@ -64,9 +40,8 @@
       </div>
     </div>
   </div>
-  <a href="#dernieres-nouvelles" ><img src="img/top_arrow.png" style="position: absolute; top: 778px; left: 47%;" alt=""></a>
 </section>
-
+<a href="#dernieres-nouvelles" ><img src="img/top_arrow.png" style="display: block; margin: auto;top: 778px;" alt=""></a>
 <section class="second_container page-section" id="dernieres-nouvelles">
   <div class="container">
     <div class="row">
@@ -115,6 +90,37 @@
           </p>
         </div> 
       </div>
+      <div class="col-md-5"><div id="slider-wrap">
+      <ul id="slider">
+       <li>
+        <div>   
+         <img src="img/locked.png" alt="la sécurité"/>
+         <p>Avec ou sans smartphone nous offrons la possibilité à notre communauté de se procurer de la liquidité à l’étranger, sans carte de retrait, et en toute sécurité. </p>
+       </div>                
+       <i class="fa fa-image"></i>
+     </li>
+
+     <li>
+      <div>
+        <img src="img/locked.png" alt="la sécurité"/>
+        <p>Tripper est une solution disponible 24h/24h et 7j/7 partout dans le monde.</p>
+      </div>
+      <i class="fa fa-gears"></i>
+    </li>
+
+    <li>
+      <div>
+        <img src="img/locked.png" alt="la sécurité"/>
+        <p>Nous collaborons des experts en sécurité bancaire et en développement constamment pour assurer la sécurité du système de transaction de Tripper.</p>
+      </div>
+      <i class="fa fa-sliders"></i>
+    </li>
+  </ul>
+  <!--controls-->
+  <div class="btns" id="next"><img src="img/next.png"/></div>
+  <!--  <div class="btns" id="previous"><i class="fa fa-arrow-left"></i></div>-->
+  <!--controls-->  
+  </div></div>
     </div>
   </div>
 </section>
@@ -122,13 +128,19 @@
 <section class="four_container page-section">
   <div class="container-fluid">
     <div class="row">
-      <h1>Participez à l'aventure</h1>
-      <button>Devenir Savior</button>
+      <h1>Participez à l'aventure</h1><br>
+      <button><a href="account.php">Devenir Savior</a></button>
     </div>
   </div>
 </section>
 
-
+<section class="footer_container page-section">
+  <div class="container-fluid">
+    <div class="row col-md-12">
+      <?php include('footer.php');?>
+    </div>
+  </div>
+</section>
 
 <script src="js/script.js"></script>
 <script>

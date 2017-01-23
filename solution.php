@@ -27,32 +27,7 @@
 </head>
 
  <body>
-  <div class="header">
-    <div class="wrap">
-      <header>
-        <h1 class="logo">
-          <a href="">
-            <img src="img/logo-tripper.png" alt="TRIPPER">
-          </a>
-        </h1>
-      </header>
-      <nav>
-        <ul class="main-nav">
-          <li><a href="#" class="is-active">La solution</a></li>
-          <li><a href="#">Devenir savior</a></li>
-          <li><a href="#">Sécurité</a></li>
-          <li><a href="#">FAQ</a></li>
-          <li><a href="#">Contact</a></li>
-
-
-          <li><a href="">Login</a></li>
-          <li class="button-inscription"><a href=""> Inscription</a></li>
-        </ul>
-      </nav>
-      <button id="btn-nav">Menu</button>
-    </div>
-  </div>
-
+  <?php include('header.php');?>
 
   <section class="first_container page-section">
     <div class="container-fluid">
@@ -209,6 +184,14 @@
     <div class="row">
       <h1><span>TRIPPER</span> vous accompagne.</h1><br><br>
       <p><img src="img/play-button.png" alt=""></p>
+    </div>
+  </div>
+</section>
+
+<section class="footer_container page-section">
+  <div class="container-fluid">
+    <div class="row col-md-12">
+      <?php include('footer.php');?>
     </div>
   </div>
 </section>

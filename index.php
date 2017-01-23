@@ -199,14 +199,14 @@
 </section>
 
 
-<section class="seven_container page-section">
+<section class="footer_container page-section">
   <div class="container-fluid">
     <div class="row col-md-12">
 
-<?php include('footer.php');?>
+      <?php include('footer.php');?>
 
-</div>
-</div>
+    </div>
+  </div>
 </section>
 <script src="js/script.js"></script>
 <script src="js/caroussel.js"></script>

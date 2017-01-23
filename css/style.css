@@ -184,6 +184,10 @@ li{
 	.seven_container{
 		min-height: 40vh;
 	}
+
+	.footer_container{
+		min-height: 40vh;
+	}
 	
 	.account_container{
 		min-height: 200vh;
@@ -221,6 +225,10 @@ li{
 	}
 
 	.seven_container{
+		min-height: 60vh;
+	}
+	
+	.footer_container{
 		min-height: 60vh;
 	}
 	
@@ -283,6 +291,13 @@ li{
 }
 
 .seven_container{
+	background:  #1b1b1b;
+	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+	background-size: cover; /* version standardisée */
+	/*min-height: 970px;*/
+}
+
+.footer_container{
 	background:  #1b1b1b;
 	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
 	background-size: cover; /* version standardisée */

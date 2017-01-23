@@ -6,11 +6,11 @@
             <img src="img/logo-tripper.png" alt="TRIPPER"/>
           </div>
           <div class="grid-3">
-            <p class="footer-heading"><a hef="#">LA SOLUTION</a></p>
+            <p class="footer-heading"><a hef="solution.php" >LA SOLUTION</a></p>
           </div>
 
           <div class="grid-3">
-            <p class="footer-heading"><a hef="#">DEVENIR SAVIOR</a></p>
+            <p class="footer-heading"><a hef="savior.php">DEVENIR SAVIOR</a></p>
             <ul class="footer-contact">
               <li><a href="">Qu'est ce qu'un savior ?</a></li>
               <li><a href="">Inscription</a></li>
