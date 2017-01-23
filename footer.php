@@ -10,15 +10,15 @@
           </div>
 
           <div class="grid-3">
-            <p class="footer-heading"><a hef="savior.php">DEVENIR SAVIOR</a></p>
+            <p class="footer-heading"><a hef="">DEVENIR SAVIOR</a></p>
             <ul class="footer-contact">
-              <li><a href="">Qu'est ce qu'un savior ?</a></li>
-              <li><a href="">Inscription</a></li>
+              <li><a href="savior.php">Qu'est ce qu'un savior ?</a></li>
+              <li><a href="account.php">Inscription</a></li>
             </ul>
           </div>
 
           <div class="grid-3">
-            <p class="footer-heading"><a hef="#">SECURITÉ</a></p>
+            <p class="footer-heading"><a hef="securite.php">SECURITÉ</a></p>
           </div>
 
           <div class="grid-3">
@@ -34,10 +34,10 @@
           <div class="grid-3">
             <p class="footer-heading"><a hef="#">RÉSEAUX SOCIAUX</a></p>
             <div class="icons">
-             <a href="#"> <img src="img/picto-facebook.png" alt="faebook"/></a>
-             <a href="#"> <img src="img/picto-instagram.png" alt="faebook"/></a>
-             <a href="#"> <img src="img/picto-twitter.png" alt="faebook"/></a>
-             <a href="#"> <img src="img/picto-youtube.png" alt="faebook"/></a>
+             <a href="https://www.facebook.com/trippersolution/" target="_blank"> <img src="img/picto-facebook.png" alt="faebook"/></a>
+             <a href="https://www.instagram.com/trippersolution/" target="_blank"> <img src="img/picto-instagram.png" alt="faebook"/></a>
+             <a href="https://twitter.com/trippersolution" target="_blank"> <img src="img/picto-twitter.png" alt="faebook"/></a>
+             <a href="https://www.youtube.com/channel/UClUrlkcjWefXm_HzLSBFRnA" target="_blank"> <img src="img/picto-youtube.png" alt="faebook"/></a>
            </div>
          </div>
 

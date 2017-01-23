@@ -195,7 +195,17 @@ li{
 	.account_container{
 		min-height: 200vh;
 	}
+	.securite_first_container{
+		min-height: 100vh;
+	} 
+	
+	.securite_second_container{
+		min-height: 30vh;
+	} 
 
+	.securite_third_container{
+		min-height:100vh;
+	}
 	.bloc{
 		text-align: center;
 		padding-top:25%;
@@ -238,7 +248,18 @@ li{
 	.account_container{
 		min-height: 200vh;
 	}
-
+	
+	.securite_first_container{
+		min-height: 100vh;
+	} 
+	
+	.securite_second_container{
+		min-height: 30vh;
+	} 
+	
+	.securite_third_container{
+		min-height: 100vh;
+	}
 	.bloc{
 		text-align: center;
 		padding-top:10%;
@@ -312,6 +333,24 @@ li{
 	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
 	background-size: cover; /* version standardisée */
 	/*min-height: 970px;*/
+}
+
+.securite_first_container{
+	background: url(../img/background-secur.png) no-repeat center fixed; 
+	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+	background-size: cover; /* version standardisée */
+}
+
+.securite_second_container{
+	background: #FFF; 
+	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+	background-size: cover; /* version standardisée */
+} 
+
+.securite_third_container{
+	background: #b4d7f1;
+	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+	background-size: cover; /* version standardisée */
 }
 /* FIRST */
 
@@ -946,14 +985,14 @@ footer a:hover {
 	width:50px;
 }
 #msform select{
-  background: #FFF;
-  border: #88b9e5 solid 1px;
-  color: #fff;
-  height: 35px;
-  max-width: 230px;
-  margin-bottom: 20px;
-  width: 100%;
-  color: #e4e3e3;
+	background: #FFF;
+	border: #88b9e5 solid 1px;
+	color: #fff;
+	height: 35px;
+	max-width: 230px;
+	margin-bottom: 20px;
+	width: 100%;
+	color: #e4e3e3;
 }
 
 /*buttons*/
@@ -1042,3 +1081,82 @@ footer a:hover {
 
 
 /*FIN DU TUNNEL D'INSCRIPTION*/
+
+
+/* Sécurité  */
+
+/***** Sécurité FIRST  *****/
+.securite_first_container button {
+	
+	background-color:#88b9e5;
+	border:none;
+	width:350px;
+	height: 50px;
+	margin: 3% auto;
+	display:block;
+}
+
+.securite_first_container button a{
+	color:#fff;
+	font-family: 'Lato', sans-serif!important;
+	font-size:14px;
+	font-weight:bold;
+}
+.securite_first_container h2{
+	color:#FFF;
+	font-size: 2.6em;
+	font-family: 'Lato', sans-serif!important;
+	padding: 20% 0 0; 
+	text-align: center;
+	font-weight: bold;
+}
+
+.securite_first_container p{
+	color:#FFF;
+	font-size: 2.6em;
+	font-family: 'Lato', sans-serif!important;
+
+	text-align: center;
+	font-weight:bold;
+}
+.securite_container span{
+	color: #88b9e5;
+	font-weight:bold;
+}
+
+/***** Sécurité SECOND  *****/
+.securite_second_container h3{
+	color:#b4d7f1;
+	font-size: 2.4em;
+	padding:10% 0 0;
+	font-family: 'Lato', sans-serif!important;
+	text-align: center;
+	font-weight: bold;
+
+}
+
+/***** Sécurité THIRD  *****/
+.securite_third_container{
+	padding:10%;
+}
+.securite_third_container span{
+	color:#fff;
+	font-size: 2em;
+	font-family: 'Lato', sans-serif!important;
+	text-align: center;
+	font-weight: bold;
+
+
+}
+
+.securite_third_container p{
+	color:#fff;
+	font-size: 1.3em;
+	line-height: 1.5em;
+	font-family: 'Lato', sans-serif!important;
+	text-align: justify;
+	margin-left: 10px;
+
+
+
+}
