@@ -169,7 +169,7 @@ li{
 	}
 
 	.third_container{
-		min-height: 100vh;
+		min-height: 130vh;
 	}
 
 	.four_container{
@@ -222,7 +222,7 @@ li{
 	}
 
 	.third_container{
-		min-height: 100vh;
+		min-height: 130vh;
 	}
 
 	.four_container{
@@ -464,7 +464,7 @@ span{
 	width: 75%;
 	height: auto;
 	padding:15px 30px 50px 30px;
-	margin:15% 0 0 12%;
+	margin:20% 0 0 12%;
 	border-bottom: 5px solid #88b9e5;
 	border-top: 5px solid #88b9e5;
 }

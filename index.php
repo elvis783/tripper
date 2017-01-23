@@ -64,16 +64,16 @@
           <h2>Rien de plus qu'un téléphone</h2>
           <ul>
             <li>
-              <h3>Rechercher</h3>
-              <p>Trouver rapidement un savior à proximité grâce à un sms à notre service.</p>
+              <h3>Entraide</h3>
+              <p>Quel sera votre moyen de paiement en voyage ? Sera-t-il accepté ou disponible partout dans le monde ? Et si vous perdez votre moyen de paiement ou votre monnaie ? Alors comment trouver logement et nourriture rapidement malgré ces contraintes ? Favoriser les interactions avec les locaux, se procurer des espèces à faible taux, Tripper innove et propose une transaction monétaire via SMS entre particuliers basé sur une communauté.</p>
             </li>
             <li>
-              <h3>Contacter</h3>
-              <p>Trouver rapidement un savior à proximité grâce à un sms à notre service.</p>
+              <h3>Contact</h3>
+              <p>Des Saviors (locaux ou commerces) partout dans le monde sont à votre disposition, prenez contact directement avec eux pour les rencontrer. Donnez-leur les informations nécessaires à la transaction tel l'exemple ci-dessous.</p>
             </li>
             <li>
-              <h3>Echanger</h3>
-              <p>Trouver rapidement un savior à proximité grâce à un sms à notre service.</p>
+              <h3>Echange</h3>
+              <p>Récupérez votre espèce lors de la rencontre. Donnez-leur le code de sécurité à usage unique. N'hésitez pas à écouter leurs astuces pour la suite de votre voyage, qui sait, vous serez peut-être un Savior à votre tour…</p>
             </li>
           </ul>
         </div>
@@ -90,7 +90,7 @@
         <div class="box-chiffres">
           <img src="img/picto-voyageurs.png" alt="3000"/>
           <h3>3000</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat sit amet lectus</p>
+          <p>voyageurs satisfaits par les transactions financières<br/> partout dans le monde</p>
         </div>
       </div>
 
@@ -99,7 +99,7 @@
         <div class="box-chiffres">
           <img src="img/picto-savior.png" alt="3000"/>
           <h3>700</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat sit amet lectus</p>
+          <p>Saviors disponibles pour faciliter la vie de nos utilisateurs</p>
         </div>
       </div>
 
@@ -107,7 +107,7 @@
         <div class="box-chiffres">
           <img src="img/picto-sms.png" alt="3000"/>
           <h3>100 000</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat sit amet lectus</p>
+          <p>SMS envoyés depuis le début de l’aventure</p>
         </div>
       </div>
 
@@ -182,7 +182,7 @@
     <div class="col-md-12">
 
       <h2>Ne perdez pas le fil</h2>
-      <p>En souscrivant à la newsletter, soyez les premiers au courant sur l'actualité des Trippers et des Saviors</p>
+      <p>En souscrivant à la Newsletter, tester la version Bêta de notre service avant la communication officielle !</p>
       <form action="config.php" method="POST">
 
         <input type="nom" placeholder="Votre nom" id="form-nom" name="nom" required />

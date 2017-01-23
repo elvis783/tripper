@@ -103,7 +103,7 @@
     <div class="col-md-12">
 
       <h2>Ne perdez pas le fil</h2>
-      <p>En souscrivant à la newsletter, soyez les premiers au courant sur l'actualité des Trippers et des Saviors</p>
+      <p>En souscrivant à la Newsletter, tester la version Bêta de notre service avant la communication officielle !</p>
       <form action="config.php" method="POST">
 
         <input type="nom" placeholder="Votre nom" id="form-nom" name="nom" required />
