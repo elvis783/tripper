@@ -12,7 +12,7 @@
           <li><a href="solution.php" class="is-active">La solution</a></li>
           <li><a href="savior.php">Devenir savior</a></li>
           <li><a href="#">Sécurité</a></li>
-          <li><a href="#">FAQ</a></li>
+          <li><a href="faq.php">FAQ</a></li>
           <li><a href="#">Contact</a></li>
 
 

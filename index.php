@@ -9,15 +9,13 @@
   <link rel="stylesheet" type="text/css" href="css/jquery-ui.css" />
   <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-
   <!-- jQuery library (served from Google) -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
   <!-- bxSlider Javascript file -->
   <script src="js/jquery.bxslider.min.js"></script>
   <!-- bxSlider CSS file -->
   <link href="css/jquery.bxslider.css" rel="stylesheet" />
-
-
+  <link rel="icon" type="image/png" href="img/favicon.png" />
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-ui.min.js"></script>
 

@@ -22,7 +22,7 @@
           </div>
 
           <div class="grid-3">
-            <p class="footer-heading"><a hef="#">FAQ</a></p>
+            <p class="footer-heading"><a hef="faq.php">FAQ</a></p>
 
           </div>
 

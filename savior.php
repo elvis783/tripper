@@ -18,6 +18,7 @@
     <link href="css/jquery.bxslider.css" rel="stylesheet" />
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery-ui.min.js"></script>
+    <link rel="icon" type="image/png" href="img/favicon.png" />
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="http://www.tripper-app.com">
     <meta name="twitter:creator" content="@trippersolution">
@@ -90,7 +91,7 @@
           </p>
         </div> 
       </div>
-      <div class="col-md-5"><div id="slider-wrap">
+      <!-- <div class="col-md-5"><div id="slider-wrap">
       <ul id="slider">
        <li>
         <div>   
@@ -116,11 +117,10 @@
       <i class="fa fa-sliders"></i>
     </li>
   </ul>
-  <!--controls-->
+  
   <div class="btns" id="next"><img src="img/next.png"/></div>
-  <!--  <div class="btns" id="previous"><i class="fa fa-arrow-left"></i></div>-->
-  <!--controls-->  
-  </div></div>
+   
+  </div></div> -->
     </div>
   </div>
 </section>

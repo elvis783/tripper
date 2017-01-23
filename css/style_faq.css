@@ -244,7 +244,7 @@ li{
 }
 
 .first_container{
-	background: url(../img/background-solution1.png) no-repeat center fixed; 
+	background: url(../img/background1.png) no-repeat center fixed; 
 	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
 	background-size: cover; /* version standardisée */
 }
@@ -301,7 +301,6 @@ li{
 /* FIRST */
 
  .first_container button{
-	
 	background-color:#88b9e5;
 	color:#FFF;
 	border:none;
@@ -315,17 +314,53 @@ li{
 	color:#FFF;
 	font-size: 2.9em;
 	font-family: 'Lato', sans-serif!important;
-	padding: 20% 0 0; 
-	text-align: center;
+	padding: 35% 0 0; 
+	text-align: left;
 	font-weight: bold;
+ }
+
+ .first_container .barre{
+ 	height: 8px; 
+ 	color: #88B9E5; 
+ 	background-color: #88B9E5; 
+ 	width: 25%; 
+ 	border: none;"
  }
 
   .first_container h3{
 	color:#FFF;
 	font-size: 2.6em;
 	font-family: 'Lato', sans-serif!important;
-	text-align: center;
+	text-align: left;
 	font-weight: bold;
+ }
+
+.first_container h4{
+	color:#black;
+	/*font-size: 2.6em;*/
+	font-family: 'Lato', sans-serif!important;
+	text-align: center;
+	/*font-weight: bold;*/
+ }
+
+ .first_container .barre_bloc{
+ 	height: 2px;
+ 	color: #88B9E5;
+ 	background-color: #88B9E5;
+ 	width: 75%;
+ 	text-align: center;
+ 	margin: auto;
+ }
+
+ .first_container .blocblanc{
+ 	height: 300px;
+ 	background-color: #FFF;
+ }
+
+  .first_container .blocblanc:hover{
+ 	height: 300px;
+ 	background-color: #88B9E5;
+ 	opacity: 0.7;
  }
  
  .first_container p{

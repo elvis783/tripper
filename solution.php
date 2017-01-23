@@ -15,6 +15,7 @@
     <!-- bxSlider Javascript file -->
     <script src="js/jquery.bxslider.min.js"></script>
     <!-- bxSlider CSS file -->
+    <link rel="icon" type="image/png" href="img/favicon.png" />
     <link href="css/jquery.bxslider.css" rel="stylesheet" />
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery-ui.min.js"></script>

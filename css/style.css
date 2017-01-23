@@ -47,7 +47,10 @@ li{
 }
 
 .header{
-	background:#6a6a68;
+	background:url('../img/texture.png');
+	position: absolute;
+	z-index: 10;
+	width: 100%;
 }
 
 @media (min-width: 620px){
@@ -326,7 +329,7 @@ li{
 	color:#FFF;
 	font-size: 2.6em;
 	font-family: 'Lato', sans-serif!important;
-	padding: 20% 0 0; 
+	padding: 30% 0 0; 
 	text-align: center;
 	font-weight: bold;
 }
