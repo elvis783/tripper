@@ -34,8 +34,9 @@
     <div class="container">
      <div class="row">
       <div class="col-md-6 col-sm-12">
-        <h1>Le support<span style="color: #88B9E5;"> TRIPPER</span></h1>
+        <h1>Le support<span style="color: #88B9E5;"> TRIPPER</span><img src="img/wifi.png" width="50" style="margin-bottom: 78px;"alt=""></h1>
         <h3>Avec vous, 24h24 & 7j/7</u></h3>
+
         <hr class="barre">
       </div>
     </div>

@@ -180,14 +180,33 @@
   </div>
 </section>
 
-<section class="seven_container page-section">
+<section class="seven_container page-section" id="cacher">
   <div class="container-fluid">
     <div class="row">
       <h1><span>TRIPPER</span> vous accompagne.</h1><br><br>
-      <p><img src="img/play-button.png" alt=""></p>
+      <p><a href=""><img src="img/play-button.png" id="btnplay" alt=""></a></p>
     </div>
   </div>
 </section>
+
+<section class="seven_bis page-section" id="afficher" style="display:none;">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="video-container">
+        <video width="100%" id="player" height="" src="img/video_solution.mp4" frameborder="0" allowfullscreen=""></video>
+      </div>
+      <div class="col-md-4 col-md-offset-1">
+        <div class="ancre-video"><a id="btnreplay">Play</a></div>
+      </div>
+      <div class="col-md-4 col-md-offset-1">
+        <div class="ancre-video"><a id="btnpause">Pause</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
 
 <section class="footer_container page-section">
   <div class="container-fluid">

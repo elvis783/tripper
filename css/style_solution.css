@@ -188,6 +188,10 @@ li{
 		min-height: 100vh;
 	}
 
+	.seven_bis{
+		min-height: 100vh;
+	}
+
 	.footer_container{
 		min-height: 40vh;
 	}
@@ -224,6 +228,10 @@ li{
 	}
 
 	.seven_container{
+		min-height: 100vh;
+	}
+
+	.seven_bis{
 		min-height: 100vh;
 	}
 
@@ -673,7 +681,26 @@ span{
 	font-size:90px;	
 }
 
+.ancre-video{
+	position: absolute;
+    width: 100%;
+    margin: -50px auto;
+    text-align: center;
+    z-index: 2000;
+}
 
+.ancre-video a{
+	position: relative;
+    background: rgba(255,255,255, 0.5);
+    border: none;
+    color: #000;
+    z-index: 2000;
+    width: 200px;
+    padding: 10px;
+    font-size: 0.8em;
+    font-family: 'Lato', sans-serif!important;
+    text-decoration: none;
+}
 /*btns*/
 .btns{
 	position:absolute;

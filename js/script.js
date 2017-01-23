@@ -195,4 +195,19 @@ function pagination(){
 	$('#pagination-wrap ul li:eq('+pos+')').addClass('active');
 }
 		
+document.getElementById('btnplay').onclick = function() {
+  document.getElementById('player').play();
+  document.getElementById('afficher').style.display = 'block';
+  document.getElementById('cacher').style.display = 'none';
+  return false;
+}
+document.getElementById('btnpause').onclick = function() {
+  document.getElementById('player').pause();
+  return false;
+}
+
+document.getElementById('btnreplay').onclick = function() {
+  document.getElementById('player').play();
+  return false;
+}
 	
