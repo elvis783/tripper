@@ -29,9 +29,9 @@
 
      <div class="row">
       <div class="col-md-6 col-md-offset-3 col-sm-12">
-        <h2><span>TRIPPER</span>, votre pied à terre à l'étranger.</h2>
-        <p> Retirer de l'argent, sans carte de retrait<br/> partout dans le monde.</p>
-        <button><a href="">Découvrir la solution</a></button>
+        <h2><span>TRIPPER</span>, make your trip easier</h2>
+        <p> Favoriser les interactions avec les locaux, se procurer des espèces à faible taux, Tripper innove & propose une transaction monétaire via SMS entre particuliers.</p>
+        <button><a href="solution.php">Découvrir la solution</a></button>
       </div>
     </div>
   </div>
@@ -46,7 +46,7 @@
           <p> Les locaux ou les commerces soyez à disposition à disposition des voyageurs pour les dépanner en espèces moyennant une commission. Ils sont remboursés (de la somme sortie en liquide pour vous) par Tripper à réception du code de sécurité à usage unique pour chaque transaction. Notre service est donc sécurisé et simple ne nécessitant pas de smartphone (difficile de trouver de la charge en backpacking ! ) seule une sim active et un téléphone suffisent, le paiement s'effectue avec votre le compte en banque relié à votre ligne téléphonique.</p>
 
         </div>
-        <button><a href="">Devenir Savior</a></button>
+        <button><a href="savior.php">Devenir Savior</a></button>
       </div>
     </div>
   </div>
