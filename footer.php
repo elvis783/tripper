@@ -47,25 +47,25 @@
      <div class="footer-wrapper clearfix">
 
       <div class="grid-3-">
-        <p class="footer-heading--"><a hef="#">Mentions légales</a></p>
+        <p class="footer-heading--"><a href="mentions.php">Mentions légales</a></p>
       </div>
 
       <div class="grid-3-">
-        <p class="footer-heading--"><a hef="#">Confidentialité</a></p>
-
-      </div>
-
-      <div class="grid-3-">
-        <p class="footer-heading--"><a hef="#">Presse</a></p>
-      </div>
-
-      <div class="grid-3-">
-        <p class="footer-heading--"><a hef="#">Cookies</a></p>
+        <p class="footer-heading--"><a href="#">Confidentialité</a></p>
 
       </div>
 
       <div class="grid-3-">
-        <p class="footer-heading--"><a hef="#">Tripper 2017</a></p>
+        <p class="footer-heading--"><a href="docs/cp-fr.pdf" target="_blank">Presse</a></p>
+      </div>
+
+      <div class="grid-3-">
+        <p class="footer-heading--"><a href="#">Cookies</a></p>
+
+      </div>
+
+      <div class="grid-3-">
+        <p class="footer-heading--"><a href="#">Tripper 2017</a></p>
 
       </div>
 

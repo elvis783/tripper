@@ -210,6 +210,10 @@ li{
 		text-align: center;
 		padding-top:25%;
 	}
+
+	.mentions_container{
+		min-height: 50vh;
+	}
 }
 
 @media(max-width:992px){
@@ -263,6 +267,10 @@ li{
 	.bloc{
 		text-align: center;
 		padding-top:10%;
+	}
+
+	.mentions_container{
+		min-height: 50vh;
 	}
 
 	.img-responsive{
@@ -352,6 +360,13 @@ li{
 	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
 	background-size: cover; /* version standardisée */
 }
+
+.mentions_container{
+	background: #fff;
+	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+	background-size: cover; /* version standardisée */
+}
+	}
 /* FIRST */
 
 .first_container button{
@@ -762,6 +777,7 @@ ul {
 footer{
 	width:100%;
 	margin: 0 auto;
+	background-color: #1b1b1b;
 }
 /* close commented backslash hack */
 
@@ -781,10 +797,7 @@ footer{
 
 	position: relative;
 }
-.grid-3-:first-child {
 
-	margin-left:10px;
-}
 
 .grid-3-:last-child {
 
@@ -813,13 +826,21 @@ footer{
 .footer-heading-- a{
 	color: #e1e1e1;
 	font-size: 12px;
+
 	
 }
-
+.footer-heading-- a:hover{
+	color:#88b9e5;
+	cursor: pointer;
+	text-decoration: none;
+}
 p.footer-heading{
 	text-align: center;
 }
 
+p.footer-heading--{
+	text-align: center;
+}
 
 .footer-wrapper ul.footermenu,.footer-contact,.footerblog {
 	margin-top: 32px;
@@ -851,7 +872,9 @@ p.footer-heading{
 	color: #fff;
 	font-size: 14px;
 }
-
+.icons {
+	text-align: center;
+}
 .icons a{
 	display: inline-block;
 }
@@ -861,6 +884,7 @@ p.footer-heading{
 	font-size:12px;
 	font-family: Arial, sans-serif;
 	letter-spacing: 1.2px;
+	text-align: center;
 }
 
 .footerblog li,.footerblog li a {
@@ -878,7 +902,7 @@ p.footer-heading{
 }
 
 footer a:hover {
-	color: #cacaca;
+	color: #88b9e5;
 	text-decoration: none;
 	cursor: pointer;
 }
