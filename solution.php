@@ -30,7 +30,7 @@
  <body>
   <?php include('header.php');?>
 
-  <section class="first_container page-section">
+  <section class="first_container page-section" id="dernieres-nouvelles1">
     <div class="container-fluid">
      <div class="row">
       <div class="col-md-8 col-md-offset-2 col-sm-12">
@@ -67,7 +67,7 @@
             compte en banque relié à votre ligne téléphonique</p>
         </div>
       </div>
-      <div class="col-md-5 col-sm-12">
+      <div class="col-md-5 col-sm-12 hidden-xs">
         <div class="hover-background">
           <p style="text-align:center; margin-top: 34%;"><img src="img/plus.png" alt=""></p>
           <button>Etape 1</button>
@@ -81,7 +81,7 @@
   <div class="container-fluid">
     <div class="row col-md-12">
       <div class="col-md-5">
-        <div class="hover-background">
+        <div class="hover-background hidden-xs">
           <p style="text-align:center; margin-top: 34%;"><img src="img/plus.png" alt=""></p>
           <button>Etape 2</button>
         </div>
@@ -121,7 +121,7 @@
         </div>
       </div>
       <div class="col-md-5">
-        <div class="hover-background">
+        <div class="hover-background hidden-xs">
           <p style="text-align:center; margin-top: 34%;"><img src="img/plus.png" alt=""></p>
           <button>Etape 3</button>
         </div>
@@ -135,7 +135,7 @@
     <div class="row">
       <div class="row col-md-12">
       <div class="col-md-5">
-        <div class="hover-background">
+        <div class="hover-background hidden-xs">
           <p style="text-align:center; margin-top: 34%;"><img src="img/plus.png" alt=""></p>
           <button>Etape 4</button>
         </div>
@@ -211,6 +211,7 @@
 <section class="footer_container page-section">
   <div class="container-fluid">
     <div class="row col-md-12">
+          <a href="#dernieres-nouvelles1" ><img src="img/bottom_arrow.png" width="50"style="position: absolute; bottom: 24vh; right: 1%;" alt=""></a>
       <?php include('footer.php');?>
     </div>
   </div>

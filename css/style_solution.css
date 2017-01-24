@@ -403,11 +403,11 @@ span{
 	font-weight: bold;
  }
 
-.second_container .hover-background:hover{
+/*.second_container .hover-background:hover{
 	background: url(../img/hover-phone.png);no-repeat center fixed; 
-	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
-	background-size: cover; /* version standardisée */
-}
+	-webkit-background-size: cover;
+	background-size: cover;
+}*/
  
 .second_container p{
 	color:#FFF;
