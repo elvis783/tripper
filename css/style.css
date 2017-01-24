@@ -537,7 +537,7 @@ span{
 	text-shadow:rgba(0,0,0,0.1) 2px 2px 0px;	
 }
 #wrapper h2{
-
+	font-family: 'Lato', sans-serif!important;
 	text-align: center;
 }
 #slider-wrap{
@@ -699,6 +699,7 @@ span{
 	text-align: center;
 	color:black;
 	font-size: 1.3em;
+	font-family: 'Lato', sans-serif!important;
 	
 }
 .six_container form{
@@ -715,6 +716,7 @@ span{
 	height: 50px;
 	padding:19px;
 	margin-left: 5px;
+	font-family: 'Lato', sans-serif!important;
 }
 
 ::-webkit-input-placeholder {
@@ -926,6 +928,7 @@ footer a:hover {
 
 .account_container h2
 {
+	font-family: 'Lato', sans-serif!important;
 	text-align: center;
 	font-size: 2em;
 	margin-top:10%;
@@ -934,6 +937,7 @@ footer a:hover {
 .account_container p{
 	font-size:1.2em;
 	text-align: center;
+	font-family: 'Lato', sans-serif!important;
 
 }
 

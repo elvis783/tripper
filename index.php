@@ -24,23 +24,24 @@
 <body>
  <?php include('header.php');?>
 
-  <section class="first_container page-section">
+  <section class="first_container page-section" >
     <div class="container-fluid">
 
      <div class="row">
-      <div class="col-md-6 col-md-offset-3 col-sm-12">
+      <div class="col-md-6 col-md-offset-3 col-xs-12">
         <h2><span>TRIPPER</span>, make your trip easier</h2>
         <p> Favoriser les interactions avec les locaux, se procurer des espèces à faible taux, Tripper innove & propose une transaction monétaire via SMS entre particuliers.</p>
         <button><a href="solution.php">Découvrir la solution</a></button>
       </div>
     </div>
   </div>
+    <a href="#dernieres-nouvelles" ><img src="img/top_arrow.png" style="position: absolute; top: 92vh; left: 47%;" alt=""></a>
 </section>
 
 <section class="second_container page-section">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-6  col-md-offset-3  col-sm-12">
+      <div class="col-md-6  col-md-offset-3  col-xs-12">
         <div class="box__black">
           <h2>Devenez Savior en 10 minutes</h2>
           <p> Les locaux ou les commerces soyez à disposition à disposition des voyageurs pour les dépanner en espèces moyennant une commission. Ils sont remboursés (de la somme sortie en liquide pour vous) par Tripper à réception du code de sécurité à usage unique pour chaque transaction. Notre service est donc sécurisé et simple ne nécessitant pas de smartphone (difficile de trouver de la charge en backpacking ! ) seule une sim active et un téléphone suffisent, le paiement s'effectue avec votre le compte en banque relié à votre ligne téléphonique.</p>
@@ -53,26 +54,26 @@
 </div>
 </section>
 
-<section class="third_container page-section">
+<section class="third_container page-section" id="dernieres-nouvelles">
   <div class="container-fluid">
     <div class="row">
       <div class="col-xs-6 col-md-6">
       </div>
       
-      <div class="col-xs-6 col-md-6">
+      <div class="col-xs-12 col-md-6">
         <div class="box__black">
           <h2>Rien de plus qu'un téléphone</h2>
           <ul>
             <li>
-              <h3>Entraide</h3>
+              <h3><b>Entraide</b></h3>
               <p>Quel sera votre moyen de paiement en voyage ? Sera-t-il accepté ou disponible partout dans le monde ? Et si vous perdez votre moyen de paiement ou votre monnaie ? Alors comment trouver logement et nourriture rapidement malgré ces contraintes ? Favoriser les interactions avec les locaux, se procurer des espèces à faible taux, Tripper innove et propose une transaction monétaire via SMS entre particuliers basé sur une communauté.</p>
             </li>
             <li>
-              <h3>Contact</h3>
+              <h3><b>Contact</b></h3>
               <p>Des Saviors (locaux ou commerces) partout dans le monde sont à votre disposition, prenez contact directement avec eux pour les rencontrer. Donnez-leur les informations nécessaires à la transaction tel l'exemple ci-dessous.</p>
             </li>
             <li>
-              <h3>Echange</h3>
+              <h3><b>Echange</b></h3>
               <p>Récupérez votre espèce lors de la rencontre. Donnez-leur le code de sécurité à usage unique. N'hésitez pas à écouter leurs astuces pour la suite de votre voyage, qui sait, vous serez peut-être un Savior à votre tour…</p>
             </li>
           </ul>
@@ -86,7 +87,7 @@
   <div class="container-fluid">
     <div class="row col-md-12">
       <h2>Tripper en chiffres</h2>
-      <div class="col-xs-6 col-md-4">
+      <div class="col-xs-12 col-md-4">
         <div class="box-chiffres">
           <img src="img/picto-voyageurs.png" alt="3000"/>
           <h3>3000</h3>
@@ -95,7 +96,7 @@
       </div>
 
       
-      <div class="col-xs-6 col-md-4">
+      <div class="col-xs-12 col-md-4">
         <div class="box-chiffres">
           <img src="img/picto-savior.png" alt="3000"/>
           <h3>700</h3>
@@ -103,7 +104,7 @@
         </div>
       </div>
 
-      <div class="col-xs-6 col-md-4">
+      <div class="col-xs-12 col-md-4">
         <div class="box-chiffres">
           <img src="img/picto-sms.png" alt="3000"/>
           <h3>100 000</h3>
@@ -121,7 +122,7 @@
 
 
    <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-12 col-xs-12">
 
       <div id="wrapper">
 
@@ -132,7 +133,7 @@
           <ul id="slider">
            <li>
             <div>   
-             <img src="img/locked.png" alt="la sécurité"/>
+             <img src="img/speech-bubble.png" alt="la sécurité"/>
              <p>Avec ou sans smartphone nous offrons la possibilité à notre communauté de se procurer de la liquidité à l’étranger, sans carte de retrait, et en toute sécurité. </p>
            </div>                
            <i class="fa fa-image"></i>
@@ -148,7 +149,7 @@
 
         <li>
           <div>
-            <img src="img/locked.png" alt="la sécurité"/>
+            <img src="img/success.png" alt="la sécurité"/>
             <p>Nous collaborons des experts en sécurité bancaire et en développement constamment pour assurer la sécurité du système de transaction de Tripper.</p>
           </div>
           <i class="fa fa-sliders"></i>
