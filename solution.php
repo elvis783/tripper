@@ -51,7 +51,7 @@
         
       </div>
       <div class="col-md-6 col-sm-12">
-        <img src="img/1.png" style="float: left; margin-top: 12%;" width="100" alt="">
+        <img src="img/1.png" style="float: left; margin-top: 12%; width: 15%;" alt="">
         <div class="box__black">
           <h2>Envoyez un SMS au 89 900</h2>
           <h3>Plus besoin de la 4G pour subvenir à vos besoins</h3>
@@ -67,7 +67,7 @@
             compte en banque relié à votre ligne téléphonique</p>
         </div>
       </div>
-      <div class="col-md-5">
+      <div class="col-md-5 col-sm-12">
         <div class="hover-background">
           <p style="text-align:center; margin-top: 34%;"><img src="img/plus.png" alt=""></p>
           <button>Etape 1</button>
@@ -96,7 +96,7 @@
             Voir l’exemple en cliquant sur le “plus”
           </p>
         </div> 
-        <img src="img/2.png" style="float: right; margin-top: 8%;" width="100" alt="">
+        <img src="img/2.png" style="float: right; margin-top: 8%; width: 16%;" alt="">
       </div>
       <div class="col-md-1"></div>
     </div>
@@ -110,7 +110,7 @@
         
       </div>
       <div class="col-md-6 col-sm-12">
-        <img src="img/3.png" style="float: left; margin-top: 12%;" width="100" alt="">
+        <img src="img/3.png" style="float: left; margin-top: 12%; width: 15%;" alt="">
         <div class="box__black">
           <h2>Sélectionnez votre Savior</h2>
           <h3>Vous recevez un listing de Saviors, à vous de choisir le votre !</h3>
@@ -150,7 +150,7 @@
             rendez-vous public proche (un café par exemple).
           </p>
         </div> 
-        <img src="img/4.png" style="float: right; margin-top: 8%;" width="100" alt="">
+        <img src="img/4.png" style="float: right; margin-top: 8%; width: 16%;" alt="">
       </div>
       <div class="col-md-1"></div>
     </div>
@@ -164,7 +164,7 @@
       <div class="col-md-1">
       </div>
       <div class="col-md-10 col-sm-12">
-        <img src="img/5.png" style="float: left; margin-top: 12%;" width="100" alt="">
+        <img src="img/5.png" style="float: left; margin-top: 12%; width: 9%;"alt="">
         <div class="box__black">
           <h2>L’aventure continue</h2>
           <h3>Plus d’inquiétude, Tripper est là</h3>

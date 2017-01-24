@@ -366,17 +366,17 @@ li{
 	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
 	background-size: cover; /* version standardisée */
 }
-	}
+	
 /* FIRST */
 
 .first_container button{
-	
 	background-color:#88b9e5;
 	color:#FFF;
 	border:none;
 	width:250px;
 	height: 50px;
-	margin: 8% 31%;
+	display: block;
+	margin: auto;
 }
 
 .first_container h2{
