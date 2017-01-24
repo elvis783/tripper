@@ -24,7 +24,7 @@
 <body>
  <?php include('header.php');?>
 
-  <section class="first_container page-section" >
+  <section class="first_container page-section">
     <div class="container-fluid">
 
      <div class="row">

@@ -74,23 +74,23 @@
 								<option value="mr">Mr</option>
 							</select>
 
-							<input type="text" name="nom" placeholder="nom" />
-							<input type="text" name="prenom" placeholder="prenom" />
-							<input type="text" name="telportable" placeholder="Téléphone Mobile" />
-							<input type="text" name="telfixe" placeholder="Téléphone Fixe" />
-							<input type="text" name="adresse" placeholder="Adresse" />
-							<input type="text" name="cp" placeholder="Code postal" />
-							<input type="text" name="ville" placeholder="Ville" />
+							<input type="text" name="nom" placeholder="nom" required/>
+							<input type="text" name="prenom" placeholder="prenom" required />
+							<input type="text" name="telportable" placeholder="Téléphone Mobile" required/>
+							<input type="text" name="telfixe" placeholder="Téléphone Fixe" required />
+							<input type="text" name="adresse" placeholder="Adresse" required/>
+							<input type="text" name="cp" placeholder="Code postal" required/>
+							<input type="text" name="ville" placeholder="Ville"required />
 
 
-							<input type="button" name="previous" class="previous action-button" value="Précédent" />
+							<input type="button" name="previous" class="previous action-button" value="Précédent"/>
 							<input type="button" name="next" class="next action-button" value="Suivant" />
 						</fieldset>
 
 						<fieldset>
 							<h2 class="fs-title">Votre état civil</h2>
 							<h3 class="fs-subtitle"></h3>
-							<input type="date" name="datedenaissance" >
+							<input type="date" name="datedenaissance" required>
 							<select name="paysdenaissance" id="pays_naissance" >
 								<option value="none">Pays de naissance</option>
 								<option value="Montenegro">Monténégro</option>
@@ -104,12 +104,12 @@
 								<option value="78">78</option>
 								<option value="92">92</option>
 							</select>
-							<input type="text" name="comdenaissance" placeholder="Commune de naissance" />
-							<input type="text" name="nationalite" placeholder="Nationalité" />
-							<input name="Newsletter" type="checkbox" value="mentions-newsletter"/>Je désire recevoir la newsletter chaque mois.
-							<input name="Mentions" type="checkbox" value="mentions-legales"/>Accepter les mentions légales
-							<input type="button" name="previous" class="previous action-button" value="Précédent" />
-							<input type="button" name="next" class="next action-button" value="Suivant" />
+							<input type="text" name="comdenaissance" placeholder="Commune de naissance"required />
+							<input type="text" name="nationalite" placeholder="Nationalité" required/>
+							<input name="Newsletter" type="checkbox" value="mentions-newsletter" required/>Je désire recevoir la newsletter chaque mois.
+							<input name="Mentions" type="checkbox" value="mentions-legales" required/>Accepter les mentions légales
+							<input type="button" name="previous" class="previous action-button" value="Précédent" required/>
+							<input type="button" name="next" class="next action-button" value="Suivant" required/>
 						</fieldset>
 
 
@@ -117,12 +117,12 @@
 							<h2 class="fs-title">Connecter votre compte paypal</h2>
 							<h3 class="fs-subtitle"></h3>
 
-							<input type="text" name="mailpaypal" placeholder="Mon adresse paypal" />
+							<input type="text" name="mailpaypal" placeholder="Mon adresse paypal" required/>
 
 							<h2 class="fs-title">Pas de compte ?</h2>
-							<input type="button" name="submit" class="action-button" value="Ouvrir un compte" />
-							<input type="button" name="previous" class="previous action-button" value="Précédent" />
-							<input type="submit" name="next" class="next action-button" value="Valider" />
+							<input type="button" name="submit" class="action-button" value="Ouvrir un compte" required/>
+							<input type="button" name="previous" class="previous action-button" value="Précédent" required/>
+							<input type="submit" name="next" class="next action-button" value="Valider" required/>
 						</fieldset>
 					</form>
 				</div>
