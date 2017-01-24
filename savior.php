@@ -41,8 +41,9 @@
       </div>
     </div>
   </div>
+  <a href="#dernieres-nouvelles" ><img src="img/top_arrow.png" class="hidden-xs" style="position: absolute; top: 92vh; left: 47%;" alt=""></a>
 </section>
-<a href="#dernieres-nouvelles" ><img src="img/top_arrow.png" style="display: block; margin: auto;top: 778px;" alt=""></a>
+
 <section class="second_container page-section" id="dernieres-nouvelles">
   <div class="container">
     <div class="row">

@@ -41,7 +41,7 @@
       </div>
     </div>
   </div>
-  <a href="#dernieres-nouvelles" ><img src="img/top_arrow.png" style="position: absolute; top: 92vh; left: 47%;" alt=""></a>
+  <a href="#dernieres-nouvelles" ><img class="hidden-xs" src="img/top_arrow.png" style="position: absolute; top: 92vh; left: 47%;" alt=""></a>
 </section>
 
 <section class="second_container page-section" id="dernieres-nouvelles">
@@ -211,7 +211,7 @@
 <section class="footer_container page-section">
   <div class="container-fluid">
     <div class="row col-md-12">
-          <a href="#dernieres-nouvelles1" ><img src="img/bottom_arrow.png" width="50"style="position: absolute; bottom: 24vh; right: 1%;" alt=""></a>
+          <a href="#dernieres-nouvelles1" ><img class="hidden-xs" src="img/bottom_arrow.png" width="50"style="position: absolute; bottom: 24vh; right: 1%;" alt=""></a>
       <?php include('footer.php');?>
     </div>
   </div>
