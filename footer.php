@@ -6,11 +6,11 @@
             <img src="img/logo-tripper.png" alt="TRIPPER"/>
           </div>
           <div class="grid-3">
-            <p class="footer-heading"><a hef="solution.php" >LA SOLUTION</a></p>
+            <p class="footer-heading"><a href="solution.php" >LA SOLUTION</a></p>
           </div>
 
           <div class="grid-3">
-            <p class="footer-heading"><a hef="">DEVENIR SAVIOR</a></p>
+            <p class="footer-heading"><a href="">DEVENIR SAVIOR</a></p>
             <ul class="footer-contact">
               <li><a href="savior.php">Qu'est ce qu'un savior ?</a></li>
               <li><a href="account.php">Inscription</a></li>
@@ -18,21 +18,21 @@
           </div>
 
           <div class="grid-3">
-            <p class="footer-heading"><a hef="securite.php">SECURITÉ</a></p>
+            <p class="footer-heading"><a href="securite.php">SECURITÉ</a></p>
           </div>
 
           <div class="grid-3">
-            <p class="footer-heading"><a hef="faq.php">FAQ</a></p>
-
-          </div>
-
-          <div class="grid-3">
-            <p class="footer-heading"><a hef="#">CONTACT</a></p>
+            <p class="footer-heading"><a href="faq.php">FAQ</a></p>
 
           </div>
 
           <div class="grid-3">
-            <p class="footer-heading"><a hef="#">RÉSEAUX SOCIAUX</a></p>
+            <p class="footer-heading"><a href="#">CONTACT</a></p>
+
+          </div>
+
+          <div class="grid-3">
+            <p class="footer-heading"><a href="#">RÉSEAUX SOCIAUX</a></p>
             <div class="icons">
              <a href="https://www.facebook.com/trippersolution/" target="_blank"> <img src="img/picto-facebook.png" alt="faebook"/></a>
              <a href="https://www.instagram.com/trippersolution/" target="_blank"> <img src="img/picto-instagram.png" alt="faebook"/></a>
